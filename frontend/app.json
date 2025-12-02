@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "app111",
+    "slug": "app111",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "extra": {
+      "apiUrl": "http://172.20.10.2:8081/api"
+    },
+    "packagerOpts": {
+      "sourceExts": ["js", "jsx", "ts", "tsx"],
+      "url": "http://172.25.64.1:8082"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
